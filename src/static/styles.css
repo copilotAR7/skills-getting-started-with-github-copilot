@@ -89,10 +89,16 @@ section h3 {
   letter-spacing: 0.5px;
 }
 
+
 .participants-list {
-  list-style-type: disc;
-  padding-left: 22px;
+  list-style-type: none;
+  padding-left: 0;
   margin-bottom: 0;
+}
+
+.participants-list.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .participants-list li {
